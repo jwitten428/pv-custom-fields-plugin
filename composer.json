@@ -1,0 +1,25 @@
+{
+    "name": "jwitten/pv-custom-fields",
+    "authors": [
+        {
+            "name": "jwitten",
+            "email": "jwitten@planview.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+
+    "extra": {
+        "installer-paths": {
+            "vendor/{$name}/": ["type:wordpress-plugin"]
+        }
+    },
+
+    "require": {
+    	"wpackagist-plugin/advanced-custom-fields":"~4.4.0"
+    }
+}
